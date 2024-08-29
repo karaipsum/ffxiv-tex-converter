@@ -1,0 +1,16 @@
+images/
+output/
+__pycache__
+/dds_tex/
+/dds/
+/tex/
+/tex_dds/
+*.7z
+materials_mipmap_output/
+materials_output/
+materials_input/
+*.dds
+*.tex
+*.tga
+*.png
+*.mtrl

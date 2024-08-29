@@ -1,0 +1,24 @@
+My notes on "tex-info.txt" and reading the binary TEX.
+
+little endian
+
+tex:
+
+attribute uint - 32 bytes = crapton of flags
+
+textureformat enum - ?? (probably 4) bytes = more flags
+
+width ushort 4 bytes 
+
+height ushort 4 bytes
+
+depth ushort 4 bytes
+
+mipmlevels 4 bytes
+
+LodOffset[3] uint
+
+OffsetToSurface[13] uint
+
+can reorder c# enums with
+(\b\w+\b)\s+(\b\w+\b) \2 \1
