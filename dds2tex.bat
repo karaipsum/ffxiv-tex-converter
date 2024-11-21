@@ -17,7 +17,7 @@ cd /d "%current_dir%"
 
 :: 执行转换命令
 echo 正在将 DDS 文件转换为 TEX 文件...
-python ffxiv_tex_converter-edit.py -d "%folder%" -c dds-to-tex -p --chunk-size 200
+python ffxiv_tex_converter-edit.py -d "%folder%" -c dds-to-tex
 
 :: 提示完成
 echo 转换完成!
